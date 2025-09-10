@@ -55,4 +55,4 @@ alter table vaccinations_metrics rename column people_fully_vaccinated_per_hundr
 alter table vaccinations_metrics rename column total_boosters_per_hundred to booster_per_100;
 alter table vaccinations_metrics rename column daily_vaccinations_per_million to daily_doses_per_million;
 alter table vaccinations_metrics rename column daily_people_vaccinated_per_hundred to daily_first_dose_per_100;
-select * from vaccinations_metrics
+select * from vaccinations_metrics;
